@@ -1,0 +1,572 @@
+<html xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><meta content="Excel.Sheet" name="ProgId"></meta><meta content="Microsoft Excel 9" name="Generator"></meta><style><!--
+     table
+{mso - displayed - decimal - separator: "\.";
+mso - displayed - thousand - separator: "\,";}
+@page
+{margin: 1.0 in .75 in 1.0 in .75 in;
+mso - header - margin: .5 in;
+mso - footer - margin: .5 in;}
+tr
+{mso - height - source: auto;}
+col
+{mso - width - source: auto;}
+br
+{mso - data - placement: same - cell;}
+.style0
+{mso - number - format: General;
+text - align: general;
+vertical - align: bottom;
+white - space: nowrap;
+mso - rotate: 0;
+mso - background - source: auto;
+mso - pattern: auto;
+color: windowtext;
+font - size: 10.0
+pt;
+font - weight: 400;
+font - style: normal;
+text - decoration: none;
+font - family: Arial;
+mso - generic - font - family: auto;
+mso - font - charset: 0;
+border: none;
+mso - protection: locked
+visible;
+mso - style - name: Normal;
+mso - style - id: 0;}
+td
+{mso - style - parent: style0;
+padding - top: 1
+px;
+padding - right: 1
+px;
+padding - left: 1
+px;
+mso - ignore: padding;
+color: windowtext;
+font - size: 10.0
+pt;
+font - weight: 400;
+font - style: normal;
+text - decoration: none;
+font - family: Arial;
+mso - generic - font - family: auto;
+mso - font - charset: 0;
+mso - number - format: General;
+text - align: general;
+vertical - align: bottom;
+border: none;
+mso - background - source: auto;
+mso - pattern: auto;
+mso - protection: locked
+visible;
+white - space: nowrap;
+mso - rotate: 0;}
+.font5
+{font - size: 16.0pt;
+font - weight: 700;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font6
+{font - size: 10.0pt;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font8
+{font - size: 8.0pt;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font7
+{font - size: 8.0pt;
+font - weight: 700;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font9
+{color:  # 999999;
+     font - size: 8.0
+pt;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font10
+{color:  # FF0000;
+     font - size: 10.0
+pt;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.font11
+{font - size: 12.0pt;
+font - weight: 700;
+font - family: Arial
+Unicode
+MS\, Andale
+WT\, Tahoma\, Arial\, MS
+UI
+Gothic\, Gulim\, SimSun\, PMingLiU\, Raghu8\, sans - serif;
+}
+.xl31
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl10
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl12
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.00";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl13
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.000";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl17
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.0000000";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl18
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.00000000";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl25
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+}
+.xl28
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl28b
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "General";
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl24
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+vertical - align: top;
+}
+.xl00
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl02
+{mso - style - parent: style0
+;white - space: normal;
+mso - number - format: "\#\,\#\#0\.00";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl03
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.000";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl07
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.0000000";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl08
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\#\,\#\#0\.00000000";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl29
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl27
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+text - align: left;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+background:  # E3E3FC;
+mso - pattern:auto
+none;
+}
+.xl32
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+text - align: right;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl24c
+{
+    mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "Short Date";
+text - align: right;
+vertical - align: top;
+border - left: 0.8
+pt
+solid  # CCCCCC;
+border - top: 0.8
+pt
+solid  # CCCCCC;
+border - right: 0.8
+pt
+solid  # CCCCCC;
+border - bottom: 0.8
+pt
+solid  # CCCCCC;
+}
+.xl26
+{mso - style - parent: style0;
+white - space: normal;
+mso - number - format: "\@";
+text - align: right;
+}
+.xl28a
+{mso - style - parent: style0;
+white - space: normal;
+vertical - align: top;}
+--></style></head><body style="height:100%"><table xmlns=""><tr><td colspan="7" rowspan="2" class="xl24"><span class="font5">BANCO XXXX</span></td></tr></table>
+<table><tr xmlns="">
+<td class="xl27"><span class="font7">Pais</span></td>
+<td class="xl27"><span class="font7">Fecha</span></td>
+<td class="xl27"><span class="font7">Referencia</span></td>
+<td class="xl27"><span class="font7">Moneda</span></td>
+<td class="xl27"><span class="font7">Monto</span></td>
+<td class="xl27"><span class="font7">Hora</span></td>
+<td class="xl27"><span class="font7">Transaccion</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">14/07/2021</span></td>
+<td class="xl28"><span class="font8">40595386397</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">71,181.67</span></td>
+<td class="xl28"><span class="font8">21.31</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">07/07/2021</span></td>
+<td class="xl28"><span class="font8">23265116478</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">46,660.17</span></td>
+<td class="xl28"><span class="font8">01.47</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">21/06/2021</span></td>
+<td class="xl28"><span class="font8">67354081036</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">49,749.06</span></td>
+<td class="xl28"><span class="font8">17.39</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">28/06/2021</span></td>
+<td class="xl28"><span class="font8">88706317946</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">86,509.99</span></td>
+<td class="xl28"><span class="font8">02.57</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">06/07/2021</span></td>
+<td class="xl28"><span class="font8">94711007225</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">71,983.31</span></td>
+<td class="xl28"><span class="font8">15.09</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">25/06/2021</span></td>
+<td class="xl28"><span class="font8">14763740542</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">48,636.85</span></td>
+<td class="xl28"><span class="font8">06.44</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">14/06/2021</span></td>
+<td class="xl28"><span class="font8">96286351536</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">16,497.00</span></td>
+<td class="xl28"><span class="font8">01.47</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">04/07/2021</span></td>
+<td class="xl28"><span class="font8">12589866916</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">1,649.95</span></td>
+<td class="xl28"><span class="font8">03.53</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">29/06/2021</span></td>
+<td class="xl28"><span class="font8">71276550238</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">98,835.68</span></td>
+<td class="xl28"><span class="font8">22.02</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr>
+<tr xmlns="">
+<td class="xl24c"><span class="font8">MX</span></td>
+<td class="xl28"><span class="font8">29/06/2021</span></td>
+<td class="xl28"><span class="font8">88340170977</span></td>
+<td class="xl02"><span class="font8">MXN</span></td>
+<td class="xl28"><span class="font8">97,427.99</span></td>
+<td class="xl28"><span class="font8">05.28</span></td>
+<td class="xl28"><span class="font8">ABONO XXXX</span></td>
+</tr></table></body></html>
